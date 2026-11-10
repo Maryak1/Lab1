@@ -12,7 +12,7 @@ CREATE TABLE Employment_paths (
 );
 
 -- 2. Создание таблицы Trams
-CREATE TABLE Trams (
+CREATE TABLE Paths (
     Depot_number integer NOT NULL,
     Path_number integer NOT NULL,
     purpose text NOT NULL,
